@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, { useState} from "react";
 import '../styles/App.css';
 
 
@@ -34,7 +34,7 @@ let App=()=>{
             case 1:return setData('Fiends');
             case 2:return setData('Love');
             case 3:return setData('Affection');
-            case 4:return setData('Marriage');
+            case 4:return setData('content: Marriage');
             case 5:return setData('Enemy');
             case 0:return setData('Siblings');
         }
