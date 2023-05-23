@@ -40,8 +40,8 @@ let App=()=>{
 
     }
     return(<div id="main">
-        <input type="text" data-testid="input1" onChange={(e)=>setFirstName(e.target.value)} placeholder="Enter first name" value={fistame}/>
-        <input type="text" data-testid="input2" onChange={(e)=>setSecondName(e.target.value)} value={secondname} placeholder="Enter second name"/>
+        <input type="text" name="name1" data-testid="input1" onChange={(e)=>setFirstName(e.target.value)} placeholder="Enter first name" value={fistame}/>
+        <input type="text" name="name2" data-testid="input2" onChange={(e)=>setSecondName(e.target.value)} value={secondname} placeholder="Enter second name"/>
         <button data-testid="calculate_relationship" onClick={addData}>Calculate Relationship Future</button>
         <button data-testid="clear">Clear</button>
         <h3 data-testid="answer">{data}</h3>
