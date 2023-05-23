@@ -18,7 +18,7 @@ let App=()=>{
             let flag=false;
             for(let j=0;j<arr2.length;j++){
                 if(arr1[i]==arr2[j]){
-                    arr2.splice(i,1);
+                    arr2.splice(j,1);
                     flag=true;
                     break;
                 }
@@ -34,7 +34,7 @@ let App=()=>{
             case 1:return setData('Fiends');
             case 2:return setData('Love');
             case 3:return setData('Affection');
-            case 4:return setData('content: Marriage');
+            case 4:return setData('Marriage');
             case 5:return setData('Enemy');
             case 0:return setData('Siblings');
         }
