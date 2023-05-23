@@ -26,7 +26,8 @@ let App=()=>{
             if(flag==false){
                 arr11.push(arr1[i]);
             }
-        }
+        }    
+        
         let str=arr11.join("")+arr2.join("");
         let n=(str.length)%6;
         switch(n){
@@ -39,11 +40,12 @@ let App=()=>{
         }
 
     }
+
     function clear(){
         setData("");
         setFirstName("");
         setSecondName("")
-    }
+    }  
     return(<div id="main">
         <input type="text" name="name1" data-testid="input1" onChange={(e)=>setFirstName(e.target.value)} placeholder="Enter first name" value={fistame}/>
         <input type="text" name="name2" data-testid="input2" onChange={(e)=>setSecondName(e.target.value)} value={secondname} placeholder="Enter second name"/>
@@ -54,4 +56,4 @@ let App=()=>{
 }
 
 
-export default App;
+export default App
