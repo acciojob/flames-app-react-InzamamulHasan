@@ -30,12 +30,12 @@ let App=()=>{
         let str=arr11.join("")+arr2.join("");
         let n=(str.length)%6;
         switch(n){
-            case 1:return setData("Fiends");
-            case 2:return setData("Love");
-            case 3:return setData("Affection");
-            case 4:return setData("Marriage");
-            case 5:return setData("Enemy");
-            case 0:return setData("Siblings");
+            case 1:return setData('Fiends');
+            case 2:return setData('Love');
+            case 3:return setData('Affection');
+            case 4:return setData('Marriage');
+            case 5:return setData('Enemy');
+            case 0:return setData('Siblings');
         }
 
     }
